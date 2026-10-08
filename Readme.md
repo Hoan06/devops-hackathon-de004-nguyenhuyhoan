@@ -11,8 +11,8 @@ Cổng nginx : 8085
 
 ##2. Môi trường triển khai :
 Hệ điều hành : Linux
-Phiên bản nginx : 
-Git : 
+Phiên bản nginx : 1.18.0 ubuntu
+Git : 2.34.1 
 Nơi chạy : VPS
 
 ##3. Cấu trúc dự án :
