@@ -27,3 +27,15 @@ Cổng : 8085
 Root : devops-hackathon-de004-nguyenhuyhoan
 
 ##5. Tường lửa :
+Cấu hình tường lửa cho phép 22/tcp và 8085/tcp 
+
+##6. Các bước triển khai : 
+Tạo user -> đổi mk user -> cấp quyền user -> tạo config git -> cài đặt các gói pakages nginx git -> tạo file thư 
+mục làm bài -> cấu hình những file cần thiết ( sudo nano ) -> đẩy lên git -> clone git về -> phân quyền vào thư mục var -> cấp quyền -> copy var sang etc nginx -> sudo ln -s 
+sang enabled -> chạy nginx -t và reload nginx -> cho phép tường lửa 22/tcp và 8085/tcp -> đẩy git đầy đủ các minh chứng
+
+##7. Ảnh minh chứng : 
+![](screenshots/01-user.png)
+![](screenshots/02-nginx.png)
+![](screenshots/03-ufw.png)
+![](screenshots/05-git-log.png)
